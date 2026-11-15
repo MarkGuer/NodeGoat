@@ -60,6 +60,11 @@
     "should": "^8.3.1",
     "zaproxy": "^0.2.0"
   },
+    "overrides": {
+    "selenium-webdriver": {
+      "adm-zip": "0.6.1"
+    }
+  },
   "repository": "https://github.com/OWASP/NodejsGoat",
   "license": "Apache 2.0"
 }
