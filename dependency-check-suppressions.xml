@@ -194,6 +194,4 @@
     <packageUrl>pkg:npm/tough-cookie@2.3.1</packageUrl>
     <vulnerabilityName>GHSA-g7q5-pjjr-gqvp</vulnerabilityName>
   </suppress>
-  <suppress>
-    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 7.5; componente trim-newlines:1.0.0. No representa correccion de la vulnerabilidad.]]></notes>
-
+</suppressions>
