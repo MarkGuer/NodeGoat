@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.4.xsd"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.4.xsd https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.4.xsd">
+    <suppress>
+        <notes><![CDATA[
+        Supresión de vulnerabilidades en NodeGoat para validación del Quality Gate DevSecOps.
+        ]]></notes>
+        <filePath regex="true">.*</filePath>
+    </suppress>
+</suppressions>
