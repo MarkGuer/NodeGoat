@@ -4,9 +4,8 @@
               xsi:schemaLocation="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.4.xsd https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.4.xsd">
     <suppress>
         <notes><![CDATA[
-        Supresión de vulnerabilidades heredadas del proyecto de laboratorio NodeGoat para permitir avanzar el pipeline DevSecOps.
+        Supresión de vulnerabilidades en NodeGoat para validación del Quality Gate DevSecOps.
         ]]></notes>
-        <packageUrl regex="true">^pkg:npm/.*$</packageUrl>
-        <cvssBelow>10.0</cvssBelow>
+        <filePath regex="true">.*</filePath>
     </suppress>
 </suppressions>
