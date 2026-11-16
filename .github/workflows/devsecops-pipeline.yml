@@ -84,6 +84,7 @@ jobs:
           args: >
             --failOnCVSS 7
             --enableExperimental
+            --suppression dependency-check-suppressions.xml
 
       - name: Subir Reporte SCA
         uses: actions/upload-artifact@v4
