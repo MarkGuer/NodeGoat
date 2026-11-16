@@ -52,7 +52,7 @@
     "grunt-jsbeautifier": "^0.2.12",
     "grunt-mocha-test": "^0.12.7",
     "grunt-npm-install": "^0.3.0",
-    "grunt-retire": "^0.3.12",
+    "grunt-retire": "^1.0.9",
     "jshint": "2.12.0",
     "mocha": "^2.4.5",
     "nodemon": "^1.19.1",
@@ -66,6 +66,9 @@
     },
     "express": {
       "body-parser": "1.20.9"
+    },
+    "cypress": {
+      "getos": "3.2.1"
     }
   },
   "repository": "https://github.com/OWASP/NodejsGoat",
