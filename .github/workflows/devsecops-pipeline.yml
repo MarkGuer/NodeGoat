@@ -28,6 +28,8 @@ jobs:
         run: |
           semgrep scan \
             --config p/security-audit \
+            --severity ERROR \
+            --error \
             --sarif \
             --output semgrep-results.sarif .
 
@@ -90,3 +92,44 @@ jobs:
           name: dependency-check-report
           path: reports/
           if-no-files-found: warn
+
+  quality-gate:
+    name: QUALITY GATE - Politica de seguridad
+    runs-on: ubuntu-latest
+    needs:
+      - sast-semgrep
+      - sbom-syft
+      - sca-dependency-check
+    if: always()
+
+    steps:
+      - name: Evaluar resultados de seguridad
+        env:
+          SAST_RESULT: ${{ needs.sast-semgrep.result }}
+          SCA_RESULT: ${{ needs.sca-dependency-check.result }}
+        run: |
+          echo "======================================"
+          echo "       EVALUACION QUALITY GATE"
+          echo "======================================"
+
+          echo "Resultado SAST: $SAST_RESULT"
+          echo "Resultado SCA:  $SCA_RESULT"
+
+          FAILED=0
+
+          if [ "$SAST_RESULT" != "success" ]; then
+            echo "::error::QUALITY GATE FAIL: SAST no cumple la politica de seguridad."
+            FAILED=1
+          fi
+
+          if [ "$SCA_RESULT" != "success" ]; then
+            echo "::error::QUALITY GATE FAIL: SCA detecto vulnerabilidades con CVSS >= 7.0 o fallo el analisis."
+            FAILED=1
+          fi
+
+          if [ "$FAILED" -ne 0 ]; then
+            echo "BUILD FAIL: No se cumplen los criterios de seguridad."
+            exit 1
+          fi
+
+          echo "BUILD SUCCESS: Se cumplen los criterios del Quality Gate."
