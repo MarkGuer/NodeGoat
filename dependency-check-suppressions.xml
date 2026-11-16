@@ -1,11 +1,195 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.4.xsd"
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               xsi:schemaLocation="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.4.xsd https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.4.xsd">
-    <suppress>
-        <notes><![CDATA[
-        Supresión de vulnerabilidades en NodeGoat para validación del Quality Gate DevSecOps.
-        ]]></notes>
-        <filePath regex="true">.*</filePath>
-    </suppress>
-</suppressions>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 9.1; componente proxy-addr:2.0.4. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/proxy-addr@2.0.4</packageUrl>
+    <vulnerabilityName>GHSA-jqcg-44mw-7w3h</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 7.5; componente qs:0.6.6. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/qs@0.6.6</packageUrl>
+    <vulnerabilityName>GHSA-gqgv-6jq5-jjj9</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 7.5; componente qs:0.6.6. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/qs@0.6.6</packageUrl>
+    <vulnerabilityName>GHSA-hrpp-h998-j3pp</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 7.5; componente qs:0.6.6. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/qs@0.6.6</packageUrl>
+    <vulnerabilityName>GHSA-f9cm-p3w6-xvr3</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 7.5; componente qs:0.6.6. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/qs@0.6.6</packageUrl>
+    <vulnerabilityName>GHSA-jjv7-qpx3-h62q</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 7.5; componente qs:6.2.1. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/qs@6.2.1</packageUrl>
+    <vulnerabilityName>GHSA-gqgv-6jq5-jjj9</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 7.5; componente qs:6.3.2. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/qs@6.3.2</packageUrl>
+    <vulnerabilityName>GHSA-hrpp-h998-j3pp</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 7.5; componente qs:6.3.2. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/qs@6.3.2</packageUrl>
+    <vulnerabilityName>GHSA-4mjr-xmp4-gh2g</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 7.5; componente qs:6.3.2. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/qs@6.3.2</packageUrl>
+    <vulnerabilityName>GHSA-6rw7-vpxm-498p</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 7.5; componente qs:6.5.2. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/qs@6.5.2</packageUrl>
+    <vulnerabilityName>GHSA-hrpp-h998-j3pp</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 7.5; componente semver:5.7.0. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/semver@5.7.0</packageUrl>
+    <vulnerabilityName>GHSA-c2qf-rxjj-qqgw</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 9.8; componente set-value:2.0.0. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/set-value@2.0.0</packageUrl>
+    <vulnerabilityName>GHSA-4g88-fppr-53pp</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 9.8; componente set-value:2.0.0. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/set-value@2.0.0</packageUrl>
+    <vulnerabilityName>GHSA-4jqc-8m5r-9rpr</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 7.1; componente shelljs:0.3.0. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/shelljs@0.3.0</packageUrl>
+    <vulnerabilityName>GHSA-4rq4-32rv-6wp6</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 7.1; componente shelljs:0.3.0. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/shelljs@0.3.0</packageUrl>
+    <vulnerabilityName>GHSA-64g7-mvw6-v9qj</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 7.5; componente sshpk:1.10.1. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/sshpk@1.10.1</packageUrl>
+    <vulnerabilityName>GHSA-2m39-62fm-q8r3</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 7.5; componente swig:1.4.2. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/swig@1.4.2</packageUrl>
+    <vulnerabilityName>GHSA-2rq5-699j-x7p6</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.2; componente tar:2.2.1. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@2.2.1</packageUrl>
+    <vulnerabilityName>GHSA-3jfq-g458-7qm9</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.2; componente tar:2.2.1. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@2.2.1</packageUrl>
+    <vulnerabilityName>GHSA-j44m-qm6p-hp7m</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.8; componente tar:4.4.8. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@4.4.8</packageUrl>
+    <vulnerabilityName>GHSA-r6q2-hw4h-h46w</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.8; componente tar:4.4.8. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@4.4.8</packageUrl>
+    <vulnerabilityName>GHSA-34x7-hfp2-rc4v</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.8; componente tar:4.4.8. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@4.4.8</packageUrl>
+    <vulnerabilityName>GHSA-3jfq-g458-7qm9</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.8; componente tar:4.4.8. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@4.4.8</packageUrl>
+    <vulnerabilityName>GHSA-5955-9wpr-37jh</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.8; componente tar:4.4.8. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@4.4.8</packageUrl>
+    <vulnerabilityName>GHSA-9r2w-394v-53qc</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.8; componente tar:4.4.8. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@4.4.8</packageUrl>
+    <vulnerabilityName>GHSA-qq89-hq3f-393p</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.8; componente tar:4.4.8. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@4.4.8</packageUrl>
+    <vulnerabilityName>GHSA-r628-mhmh-qjhw</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.8; componente tar:4.4.8. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@4.4.8</packageUrl>
+    <vulnerabilityName>GHSA-23hp-3jrh-7fpw</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.8; componente tar:4.4.8. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@4.4.8</packageUrl>
+    <vulnerabilityName>GHSA-8x88-c5mf-7j5w</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.8; componente tar:4.4.8. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@4.4.8</packageUrl>
+    <vulnerabilityName>GHSA-r292-9mhp-454m</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.8; componente tar:4.4.8. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@4.4.8</packageUrl>
+    <vulnerabilityName>GHSA-83g3-92jg-28cx</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.8; componente tar:4.4.8. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@4.4.8</packageUrl>
+    <vulnerabilityName>GHSA-8qq5-rm4j-mr97</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.8; componente tar:4.4.8. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@4.4.8</packageUrl>
+    <vulnerabilityName>GHSA-9ppj-qmqm-q256</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.8; componente tar:4.4.8. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@4.4.8</packageUrl>
+    <vulnerabilityName>GHSA-qffp-2rhf-9h96</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.8; componente tar:4.4.8. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@4.4.8</packageUrl>
+    <vulnerabilityName>GHSA-f5x3-32g6-xq36</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.8; componente tar:4.4.8. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@4.4.8</packageUrl>
+    <vulnerabilityName>GHSA-gvwx-54wh-qm9j</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.8; componente tar:4.4.8. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@4.4.8</packageUrl>
+    <vulnerabilityName>GHSA-w8wr-v893-vjvp</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 8.8; componente tar:4.4.8. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tar@4.4.8</packageUrl>
+    <vulnerabilityName>GHSA-vmf3-w455-68vh</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[Excepcion temporal de riesgo aceptado para demostracion academica; CVSS 7.5; componente tough-cookie:2.3.1. No representa correccion de la vulnerabilidad.]]></notes>
+    <packageUrl>pkg:npm/tough-cookie@2.3.1</packageUrl>
+    <vulnerabilityName>GHSA-g7q5-pjjr-gqvp</vulnerabilityName>
+  </suppress>
+ </suppressions>

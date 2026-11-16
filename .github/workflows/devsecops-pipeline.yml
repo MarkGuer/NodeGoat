@@ -81,7 +81,7 @@ jobs:
           path: '.'
           format: 'HTML'
           out: 'reports'
-          args: --failOnCVSS 11--suppression dependency-check-suppressions.xml
+          args: --failOnCVSS 7 --suppression dependency-check-suppressions.xml
 
       - name: Subir Reporte SCA
         uses: actions/upload-artifact@v4
