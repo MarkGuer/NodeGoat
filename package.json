@@ -39,7 +39,7 @@
     "cy:verify": "cypress verify"
   },
   "devDependencies": {
-    "async": "^2.0.0-rc.4",
+    "async": "2.6.4",
     "cross-env": "^7.0.2",
     "cypress": "^3.3.1",
     "grunt": "^1.0.3",
@@ -61,13 +61,13 @@
     "zaproxy": "^0.2.0"
   },
   "overrides": {
-  "selenium-webdriver": {
-    "adm-zip": "0.6.1"
+    "selenium-webdriver": {
+      "adm-zip": "0.6.1"
+    },
+    "express": {
+      "body-parser": "1.20.9"
+    }
   },
-  "express": {
-    "body-parser": "1.20.9"
-  }
-},
   "repository": "https://github.com/OWASP/NodejsGoat",
   "license": "Apache 2.0"
 }
